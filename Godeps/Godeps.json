@@ -1,12 +1,8 @@
 {
 	"ImportPath": "github.com/niwho/school_management_demo",
 	"GoVersion": "go1.8",
-	"GodepVersion": "v79",
+	"GodepVersion": "v75",
 	"Deps": [
-		{
-			"ImportPath": "github.com/gin-contrib/sse",
-			"Rev": "22d885f9ecc78bf4ee5d72b937e4bbcdc58e8cae"
-		},
 		{
 			"ImportPath": "github.com/gin-gonic/gin",
 			"Comment": "v1.2-80-g7b50818",
@@ -14,11 +10,6 @@
 		},
 		{
 			"ImportPath": "github.com/gin-gonic/gin/binding",
-			"Comment": "v1.2-80-g7b50818",
-			"Rev": "7b508186dd71146cbdb3d14f2c2e1aaaa51f7e45"
-		},
-		{
-			"ImportPath": "github.com/gin-gonic/gin/json",
 			"Comment": "v1.2-80-g7b50818",
 			"Rev": "7b508186dd71146cbdb3d14f2c2e1aaaa51f7e45"
 		},
@@ -32,22 +23,31 @@
 			"Rev": "0a4f71a498b7c4812f64969510bcb4eca251e33a"
 		},
 		{
-			"ImportPath": "github.com/json-iterator/go",
-			"Comment": "jsoniter-go-0.9.19-7-gc15b4d1",
-			"Rev": "c15b4d116cb805508fd5862d8761a88076b3cc8e"
+			"ImportPath": "github.com/jinzhu/gorm",
+			"Comment": "v1.0-41-gc1c4f9f",
+			"Rev": "c1c4f9f86e732a042aac9f37e025893d6d6cabec"
 		},
 		{
-			"ImportPath": "github.com/mattn/go-isatty",
-			"Comment": "v0.0.2",
-			"Rev": "fc9e8d8ef48496124e79ae0df75490096eccf6fe"
+			"ImportPath": "github.com/jinzhu/gorm/dialects/sqlite",
+			"Comment": "v1.0-41-gc1c4f9f",
+			"Rev": "c1c4f9f86e732a042aac9f37e025893d6d6cabec"
 		},
 		{
-			"ImportPath": "github.com/ugorji/go/codec",
-			"Rev": "5efa3251c7f7d05e5d9704a69a984ec9f1386a40"
+			"ImportPath": "github.com/jinzhu/inflection",
+			"Rev": "3272df6c21d04180007eb3349844c89a3856bc25"
 		},
 		{
-			"ImportPath": "golang.org/x/sys/unix",
-			"Rev": "7a4fde3fda8ef580a89dbae8138c26041be14299"
+			"ImportPath": "github.com/manucorporat/sse",
+			"Rev": "ee05b128a739a0fb76c7ebd3ae4810c1de808d6d"
+		},
+		{
+			"ImportPath": "github.com/mattn/go-sqlite3",
+			"Comment": "v1.1.0-69-g38ee283",
+			"Rev": "38ee283dabf11c9cbdb968eebd79b1fa7acbabe6"
+		},
+		{
+			"ImportPath": "golang.org/x/net/context",
+			"Rev": "07b51741c1d6423d4a6abab1c49940ec09cb1aaf"
 		},
 		{
 			"ImportPath": "gopkg.in/go-playground/validator.v8",
